@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+header{
+    background-image: url(/img/background.png);
+    background-size: cover;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    border-radius: 250px;
+    height: 366px;
+}
+.center{
+    display: flex;
+    gap: 300px;
+    justify-content: center; 
+}
+.cont{
+    padding: 80px 0;
+}
+.text{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 782px;
+    height: 767px;
+    border-radius: 100px;
+    text-align: center;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    row-gap: 89px;
+    margin-top: 114px;
+}
+p{
+    font-size: 48px;
+    color: white;
+}
+.KK_p{
+    font-weight: 700;
+}
+.ECS_button, .YouTube_button{
+    width: 524px;
+    height: 134px;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 50px;
+}
+span{
+    color: red;
+}
+.buttons{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 37px;
+}
+.imgs{
+    text-align: center;
+}
